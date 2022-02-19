@@ -1,0 +1,68 @@
+.project-img{
+    border-radius: 8px;
+    width: auto;
+    height: 20vw;
+    transition: 0.5s;
+    align-self: center;
+}
+
+.demo-btn-group a{
+    text-decoration: none;
+    color:black;
+}
+
+.demo-btn-group a:hover{
+    text-decoration: none;
+    color: blue;
+}
+
+.demo-btn-group{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.demo-btn-group button{
+    height: 30px;
+    width: 120px;
+    background-color: white;
+    border: solid;
+}
+
+.project-display{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.project-container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+.project-details{
+    margin-left: 50px;
+    height: auto;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+@media screen and (max-width: 992px){
+    .project-display{
+        display: flex;
+        flex-direction: column;
+    }
+    .project-img{
+        border-radius: 8px;
+        width: 50vw;
+        height: auto;
+        transition: 0.5s;
+    }
+    .project-container{
+        width: 90vw;
+        height: auto;
+    }
+}
