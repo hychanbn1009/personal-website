@@ -6,12 +6,12 @@ const Sidebar = () =>{
     return(
         <div className='sidebar-container'>
             <input type='checkbox' id='sidebar-btn' hidden></input>
-            <label for='sidebar-btn' className='sidebar-toggler'>
+            <label htmlFor='sidebar-btn' className='sidebar-toggler'>
                 <i className='fa fa-bars'></i>
-                <i class="fas fa-times"></i>
+                <i className="fas fa-times"></i>
             </label>
             <nav id='sidebar'>
-                <ul class="list-items">
+                <ul className="list-items">
                     <li><NavLink to='/'>Home</NavLink></li>
                     <li><NavLink to='/about'>About</NavLink></li>
                     <li><NavLink to='/skills'>Skills</NavLink></li>

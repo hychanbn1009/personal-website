@@ -5,3 +5,12 @@
 * {
   box-sizing: border-box;
 }
+
+.content{
+  background-color: #95adbe;
+  color: black;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 0 20vw;
+}

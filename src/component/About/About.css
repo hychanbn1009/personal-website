@@ -1,0 +1,19 @@
+.about-container{
+    height: 100vh;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+}
+
+.about-container p{
+    text-align: left;
+}
+
+.about-container ul{
+    text-align: left;
+}
+
+.about-container ul{
+    list-style-type: none;
+}
