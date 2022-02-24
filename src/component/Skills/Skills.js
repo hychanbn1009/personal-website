@@ -13,9 +13,9 @@ const Skills =()=>{
                         {SkillList.map((skill)=>{
                             if(skill.area==="front-end"){
                                 return(
-                                    <div>
-                                        <p>{skill.name}</p>
+                                    <div className="icon">
                                         <img src={skill.image} alt={skill.name}/>
+                                        <p>{skill.name}</p>
                                     </div>
                                 )
                             }else{
@@ -28,9 +28,9 @@ const Skills =()=>{
                         {SkillList.map((skill)=>{
                             if(skill.area==="back-end"){
                                 return(
-                                    <div>
-                                        <p>{skill.name}</p>
+                                    <div className="icon">
                                         <img src={skill.image} alt={skill.name}/>
+                                        <p>{skill.name}</p>
                                     </div>
                                 )
                             }else{
@@ -43,9 +43,9 @@ const Skills =()=>{
                     {SkillList.map((skill)=>{
                         if(skill.area==="other"){
                             return(
-                                <div>
+                                <div className="icon">
+                                    <img src={skill.image} alt={skill.name}></img>
                                     <p>{skill.name}</p>
-                                    <img src={skill.image} alt={skill.name}/>
                                 </div>
                             )
                         }else{
