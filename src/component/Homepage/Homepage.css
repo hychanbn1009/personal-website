@@ -9,3 +9,23 @@
 .self-intro-block{
     justify-content: space-between;
 }
+
+.contact-container{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.contact-container i{
+    font-size: 50px;
+    transform: 0.5s;
+}
+
+.contact-container i:hover{
+    transform: scale(1.25);
+}
+
+.contact-container a{
+    color:black
+}

@@ -1,3 +1,7 @@
+.skills-container{
+    height: 100%;
+}
+
 .skills-container img{
     width: 8vw;
     height: auto;
@@ -29,9 +33,12 @@
         width: 20vw;
         height: auto;
     }
-  }
+}
   
-  @media only screen and (max-width: 500px){
+@media only screen and (max-width: 500px){
+    .skills-container h2{
+        margin-top: 30px;
+    }
 
     .icon-container{
         display: flex;
@@ -40,9 +47,16 @@
         justify-content: space-around;
         align-items: flex-end;
     }
+    .icon{
+        display: flex;
+        flex-direction: column;
+        flex: 1 1 50;
+        width: 50%;
+        align-items: center;
+    }
 
     .skills-container img{
-        width: 50%;
+        width: 30%;
         height: auto;
     }
-  }
+}
