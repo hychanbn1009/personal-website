@@ -1,7 +1,6 @@
 import React from "react";
 import ProjectList from "./ProjectList";
 import "./Projects.css"
-import SkillList from "../Skills/SkillList";
 
 const Projects =()=>{
 

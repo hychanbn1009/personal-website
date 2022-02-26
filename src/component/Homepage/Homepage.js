@@ -1,6 +1,5 @@
 import React from "react";
 import './Homepage.css'
-import backgroundPhoto from "../../assets/images/background.jpg"
 
 const Homepage =()=>{
     return(
