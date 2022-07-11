@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/personal-website/static/css/main.5ec66bd3.css",
-    "main.js": "/personal-website/static/js/main.00864c30.js",
+    "main.css": "/personal-website/static/css/main.4daa1202.css",
+    "main.js": "/personal-website/static/js/main.12ff2813.js",
     "static/js/787.5809834d.chunk.js": "/personal-website/static/js/787.5809834d.chunk.js",
-    "static/media/Shopping-Cart.png": "/personal-website/static/media/Shopping-Cart.bd286f9518a6441ea9f2.png",
-    "static/media/Blog.png": "/personal-website/static/media/Blog.9192557ebc61afd098bb.png",
-    "static/media/CV-Maker.png": "/personal-website/static/media/CV-Maker.dcdb4a5f696625e3972a.png",
-    "static/media/calculator.png": "/personal-website/static/media/calculator.4f573d2aebb8ac625e5f.png",
-    "static/media/Tic-Tac-Toe.png": "/personal-website/static/media/Tic-Tac-Toe.d8346b507dbc80b88d47.png",
-    "static/media/Members-Only.png": "/personal-website/static/media/Members-Only.50d67f60f7d456de44eb.png",
+    "static/media/my_image2.jpg": "/personal-website/static/media/my_image2.5cbb6be4fb9a62172b10.jpg",
+    "static/media/Shopping-Cart.png": "/personal-website/static/media/Shopping-Cart.e1cb3e5e9081fb2fd751.png",
+    "static/media/my_image.jpg": "/personal-website/static/media/my_image.4e7d3538e4795aa3cb3a.jpg",
+    "static/media/Blog.png": "/personal-website/static/media/Blog.d9037d80aee6e7085729.png",
+    "static/media/CV-Maker.png": "/personal-website/static/media/CV-Maker.3c1fa8a90517ac8f5cff.png",
+    "static/media/Tic-Tac-Toe.png": "/personal-website/static/media/Tic-Tac-Toe.2ce5aba22d266ecde078.png",
+    "static/media/Members-Only.png": "/personal-website/static/media/Members-Only.eb617407e4687cf49d83.png",
     "static/media/postman.png": "/personal-website/static/media/postman.73784122f34c69527466.png",
     "static/media/mongoose.png": "/personal-website/static/media/mongoose.df9141d3ce372e166420.png",
     "static/media/reactjs.svg": "/personal-website/static/media/reactjs.cbf8d17e9ac42d55bf6b3dabac059dfa.svg",
@@ -30,12 +31,12 @@
     "static/media/css3.svg": "/personal-website/static/media/css3.b0696b45b1583f1dcd92f8fc11f764e1.svg",
     "static/media/html5.svg": "/personal-website/static/media/html5.10080bf9eca0dcafeb4b353b2ce579ea.svg",
     "static/media/npm.svg": "/personal-website/static/media/npm.f5b70b3788cac843e2ccc5a829267807.svg",
-    "main.5ec66bd3.css.map": "/personal-website/static/css/main.5ec66bd3.css.map",
-    "main.00864c30.js.map": "/personal-website/static/js/main.00864c30.js.map",
+    "main.4daa1202.css.map": "/personal-website/static/css/main.4daa1202.css.map",
+    "main.12ff2813.js.map": "/personal-website/static/js/main.12ff2813.js.map",
     "787.5809834d.chunk.js.map": "/personal-website/static/js/787.5809834d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5ec66bd3.css",
-    "static/js/main.00864c30.js"
+    "static/css/main.4daa1202.css",
+    "static/js/main.12ff2813.js"
   ]
 }
