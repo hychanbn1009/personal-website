@@ -1,6 +1,5 @@
 import CVMaker from '../../assets/images/CV-Maker.png'
 import Blog from '../../assets/images/Blog.png'
-import Calculator from '../../assets/images/calculator.png'
 import Members from '../../assets/images/Members-Only.png'
 import ShoppingCart from '../../assets/images/Shopping-Cart.png'
 import TicTacToe from '../../assets/images/Tic-Tac-Toe.png'
@@ -46,14 +45,6 @@ const ProjectList=[
         "liveDemo":"https://hychanbn1009.github.io/The_Odin_Project-tic-tac-toe/",
         "repo":"https://github.com/hychanbn1009/The_Odin_Project-tic-tac-toe",  
         "image": TicTacToe
-    },
-    {
-        "name": "Calculator",
-        "description": "A simple calculator to test Javascript, HTML5 and CSS3 syntax. It can do some simple calculation.",
-        "technologies":["HTML5","CSS3","Javascript"],
-        "liveDemo":"https://hychanbn1009.github.io/The_Odin_Project-Calculator/",
-        "repo":"https://github.com/hychanbn1009/The_Odin_Project-Calculator",  
-        "image": Calculator
     },
 ]
 

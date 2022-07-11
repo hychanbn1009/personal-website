@@ -1,7 +1,7 @@
 .homepage-container{
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
 }
@@ -10,22 +10,31 @@
     justify-content: space-between;
 }
 
-.contact-container{
+.contact-block{
     display: flex;
     flex-direction:row;
     justify-content: space-evenly;
     margin-top: 20px;
 }
 
-.contact-container i{
+.contact-block i{
     font-size: 50px;
     transform: 0.5s;
 }
 
-.contact-container i:hover{
+.contact-block i:hover{
     transform: scale(1.25);
 }
 
-.contact-container a{
+.contact-block a{
     color:black
+}
+
+@media only screen and (max-width: 992px){
+    .homepage-container{
+        flex-direction: column-reverse;
+    }
+    .self-intro-block{
+        margin-top: 30px;
+    }
 }

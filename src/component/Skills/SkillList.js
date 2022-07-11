@@ -52,7 +52,7 @@ const SkillList =[
         "area":"front-end"
     },
     {
-        "name":"Redex",
+        "name":"Redux",
         "image":redux,
         "area":"front-end"
     },

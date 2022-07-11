@@ -7,10 +7,38 @@
 }
 
 .content{
-  background-color: #95adbe;
   color: black;
   display: flex;
-  justify-content: center;
-  min-height: 100vh;
-  padding: 0 10vw;
+  flex-direction: column;
+  /* padding: 0 10vw; */
+}
+
+.image-holder{
+  height:17rem;
+  width:17rem;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-left: 2rem;
+  z-index: -1;
+}
+
+#my-image{
+  height:auto;
+  width:17rem;
+  align-self: center;
+}
+
+button{
+  cursor:pointer;
+}
+
+
+@media only screen and (max-width: 992px){
+  .content{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    padding: 0 0vw;
+  }
 }
