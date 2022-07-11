@@ -4,9 +4,9 @@ import './Contact.css'
 
 const Contact =()=>{
 
-    const serviceId=process.env.REACT_APP_serviceIDs;
-    const templateID=process.env.REACT_APP_templateID;
-    const publicKey=process.env.REACT_APP_publicKey;
+    const serviceId=process.env.REACT_APP_SERVICEID;
+    const templateID=process.env.REACT_APP_TEMPLATEID;
+    const publicKey=process.env.REACT_APP_PUBLICKEY;
 
     const [errorMessage,setErrorMessage]=useState(null)
 
@@ -15,12 +15,15 @@ const Contact =()=>{
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm(serviceId, templateID, form.current, publicKey)
+        try{emailjs.sendForm(serviceId, templateID, form.current, publicKey)
         .then((result) => {
             setErrorMessage("Your Message has been sent out! I will reach you out soon!")
         }, (error) => {
             setErrorMessage("Sorry! Somethings go wrong. Can you send me an email instead?");
-        });
+        })}
+        catch(error){
+            setErrorMessage("Sorry! Somethings go wrong. Can you send me an email instead?");
+        };
     };
 
     return(
