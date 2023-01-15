@@ -19,6 +19,7 @@ import reactjs from "../../assets/images/icon/reactjs.svg";
 import redux from "../../assets/images/icon/redux.svg";
 import selenium from "../../assets/images/icon/selenium.svg";
 import vscode from "../../assets/images/icon/vscode.svg";
+import socketIo from "../../assets/images/icon/socket-io.svg";
 
 const SkillList =[
     {
@@ -84,6 +85,11 @@ const SkillList =[
     {
         "name":"PostgreSQL",
         "image":postgresql,
+        "area":"back-end"
+    },
+    {
+        "name":"Socket-IO",
+        "image":socketIo,
         "area":"back-end"
     },
     {

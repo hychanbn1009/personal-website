@@ -3,13 +3,22 @@ import Blog from '../../assets/images/Blog.png'
 import Members from '../../assets/images/Members-Only.png'
 import ShoppingCart from '../../assets/images/Shopping-Cart.png'
 import TicTacToe from '../../assets/images/Tic-Tac-Toe.png'
+import InstagramClone from '../../assets/images/Instagram-clone.png'
 
 
 const ProjectList=[
     {
+        "name": "Instagram Clone",
+        "description": "An Instagram clone, using the MERN stack, allows users to create posts, like post and send messages. Deployed in Render",
+        "technologies":["HTML5","SCSS","Javascript","ReactJS","Redux","NodeJS","ExpressJS","SocketIO","Render","MongoDB"],
+        "liveDemo":"https://hychanbn1009.github.io/Instagram-clone/",
+        "repo":"https://github.com/hychanbn1009/Instagram-clone",
+        "image":InstagramClone
+    },
+    {
         "name": "My Blog",
         "description": "A blog website allows users create and publish posts. Other users can read and post their comments. The backend was developed by NodeJS and ExpressJS, and the frontend was built by React and Bootstrap. It also used PassportJS for user authentication and MongoDB for database",
-        "technologies":["HTML5","CSS3","Javascript","ReactJS","NodeJS","ExpressJS","Bootstrap","Heroku","MongoDB"],
+        "technologies":["HTML5","CSS3","Javascript","ReactJS","NodeJS","ExpressJS","Bootstrap","Render","MongoDB"],
         "liveDemo":"https://hychanbn1009.github.io/The_Odin_Project-blog-client/",
         "repo":"https://github.com/hychanbn1009/The_Odin_Project-blog-client",
         "image":Blog
@@ -17,7 +26,7 @@ const ProjectList=[
     {
         "name": "Members Only",
         "description": "A Member message board allows users create and publish message. Only member can view the author and posted date. The backend was developed by NodeJS and ExpressJS, and the frontend was built by Jade and Bootstrap. It also used PassportJS for user authentication and MongoDB for database",
-        "technologies":["Jade","CSS3","Javascript","Bootstrap","NodeJS","ExpressJS","Heroku","MongoDB"],
+        "technologies":["Jade","CSS3","Javascript","Bootstrap","NodeJS","ExpressJS","Render","MongoDB"],
         "liveDemo":"https://warm-basin-93477.herokuapp.com/",
         "repo":"https://github.com/hychanbn1009/The_Odin_Project-Members-Only",
         "image":Members    
