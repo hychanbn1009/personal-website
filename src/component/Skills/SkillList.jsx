@@ -20,6 +20,8 @@ import redux from "../../assets/images/icon/redux.svg";
 import selenium from "../../assets/images/icon/selenium.svg";
 import vscode from "../../assets/images/icon/vscode.svg";
 import socketIo from "../../assets/images/icon/socket-io.svg";
+import aws from "../../assets/images/icon/aws.svg";
+import typescript from "../../assets/images/icon/typescript.svg";
 
 const SkillList =[
     {
@@ -31,6 +33,21 @@ const SkillList =[
         "name":"CSS3",
         "image":css3,
         "area":"front-end"
+    },
+    {
+        "name":"AWS",
+        "image":aws,
+        "area":"other"
+    },
+    {
+        "name":"TypeScript",
+        "image":typescript,
+        "area":"back-end"
+    },
+    {
+        "name":"Python",
+        "image":python,
+        "area":"back-end"
     },
     {
         "name":"Javascript",
@@ -91,11 +108,6 @@ const SkillList =[
         "name":"Socket-IO",
         "image":socketIo,
         "area":"back-end"
-    },
-    {
-        "name":"Python",
-        "image":python,
-        "area":"python"
     },
     {
         "name":"Selenium",

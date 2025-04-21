@@ -1,6 +1,5 @@
 import React from "react";
-import ProjectList from "./ProjectList";
-import SkillList from "../Skills/SkillList";
+import ProjectList from "./ProjectList.jsx";
 import "./Projects.css"
 
 
@@ -12,7 +11,7 @@ const Projects =()=>{
                 <section className="projects-container">
                     {ProjectList.map((project)=>{
                         return(
-                            <div className="project-container">
+                            <div className="project-container" key={project.name}>
                                 <img src={project.image} alt={project.name}/>
                                 <div className="project-detail-container">
                                     <h3>{project.name}</h3>

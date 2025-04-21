@@ -4,9 +4,9 @@ import './Contact.css'
 
 const Contact =()=>{
 
-    const serviceId=process.env.REACT_APP_SERVICEID;
-    const templateID=process.env.REACT_APP_TEMPLATEID;
-    const publicKey=process.env.REACT_APP_PUBLICKEY;
+    const serviceId=import.meta.env.VITE_API_SERVICEID;
+    const templateID=import.meta.env.VITE_API_TEMPLATEID;
+    const publicKey=import.meta.env.VITE_API_PUBLICKEY;
 
     const [errorMessage,setErrorMessage]=useState(null)
 
@@ -33,11 +33,11 @@ const Contact =()=>{
                 <div className="contact-form">
                     <h2>Leave a Message</h2>
                     <form ref={form} onSubmit={sendEmail}>
-                    <label for="contact_name">Name:</label>
+                    <label htmlFor="contact_name">Name:</label>
                     <input type="text" size="19" name="contact_name" required/>
-                    <label for="contact_email">Email:</label>
+                    <label htmlFor="contact_email">Email:</label>
                     <input type="email" name="contact_email" required/>
-                    <label for="contact_message">Message:</label>
+                    <label htmlFor="contact_message">Message:</label>
                     <div className="textarea-container">
                         <textarea name="contact_message" required></textarea>
                     </div>
@@ -47,9 +47,9 @@ const Contact =()=>{
                 </div>
                 <div className="other-contact">
                     <h2>Other Contact Info</h2>
-                        <a href="https://github.com/hychanbn1009" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i>https://github.com/hychanbn1009</a>
-                        <a href="mailto:hychanbn1009@gmail.com"><i class="far fa-envelope"></i>hychanbn1009@gmail.com</a>
-                        <a href="https://www.linkedin.com/in/hychanbn/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i>https://www.linkedin.com/in/hychanbn/</a>
+                        <a href="https://github.com/hychanbn1009" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i>https://github.com/hychanbn1009</a>
+                        <a href="mailto:hychanbn1009@gmail.com"><i className="far fa-envelope"></i>hychanbn1009@gmail.com</a>
+                        <a href="https://www.linkedin.com/in/hychanbn/" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin"></i>https://www.linkedin.com/in/hychanbn/</a>
                 </div>
             </div>
         </div>

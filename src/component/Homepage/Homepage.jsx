@@ -7,7 +7,8 @@ const Homepage =()=>{
         <div className="homepage-container" id="Home">
             <div className="self-intro-block">
                 <h1>Hei Yuen Chan</h1>
-                <h3>Self Taught Fullstack Web Developer</h3>
+                <h3>Software Engineer</h3>
+                <h4>AWS Certified Developer & Solution Architect</h4>
                 <div class="contact-block">
                     <a href="https://github.com/hychanbn1009" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
                     <a href="mailto:hychanbn1009@gmail.com"><i class="far fa-envelope"></i></a>

@@ -1,5 +1,5 @@
 import React from "react";
-import SkillList from "./SkillList";
+import SkillList from "./SkillList.jsx";
 import "./Skill.css"
 
 const Skills =()=>{
@@ -14,7 +14,7 @@ const Skills =()=>{
                         {SkillList.map((skill)=>{
                             if(skill.area==="front-end"){
                                 return(
-                                    <div className="icon">
+                                    <div className="icon" key={`front-${skill.name}`}>
                                         <img src={skill.image} alt={skill.name}/>
                                         <p>{skill.name}</p>
                                     </div>
@@ -31,7 +31,7 @@ const Skills =()=>{
                         {SkillList.map((skill)=>{
                             if(skill.area==="back-end"){
                                 return(
-                                    <div className="icon">
+                                    <div className="icon" key={`front-${skill.name}`}>
                                         <img src={skill.image} alt={skill.name}/>
                                         <p>{skill.name}</p>
                                     </div>
@@ -48,7 +48,7 @@ const Skills =()=>{
                         {SkillList.map((skill)=>{
                             if(skill.area==="other"){
                                 return(
-                                    <div className="icon">
+                                    <div className="icon" key={`front-${skill.name}`}>
                                         <img src={skill.image} alt={skill.name}/>
                                         <p>{skill.name}</p>
                                     </div>
@@ -64,7 +64,7 @@ const Skills =()=>{
                         {SkillList.map((skill)=>{
                             if(skill.area==="front-end"){
                                 return(
-                                    <div className="icon">
+                                    <div className="icon" key={`front-${skill.name}`}>
                                         <img src={skill.image} alt={skill.name}/>
                                         <p>{skill.name}</p>
                                     </div>
